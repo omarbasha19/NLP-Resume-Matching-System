@@ -5,7 +5,7 @@ An intelligent, end-to-end system for matching candidate resumes with job descri
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Manual resume screening is time-consuming, error-prone, and often biased. This project introduces a smart automated matching system that:
 - Reads and processes raw resume text.
@@ -112,12 +112,12 @@ To move beyond raw similarity scores, we trained supervised classifiers to predi
 
 ---
 
-## 🛠 Future Enhancements
+##  Future Enhancements
 
-- 📁 Add multilingual support and broader job domains.
-- 🔍 Fine-tune BERT on job recruitment corpora.
-- 🖥️ Develop a user-friendly web-based interface for recruiters.
-- 📊 Integrate dashboard analytics for match insights.
+- Add multilingual support and broader job domains.
+-  Fine-tune BERT on job recruitment corpora.
+-  Develop a user-friendly web-based interface for recruiters.
+-  Integrate dashboard analytics for match insights.
 
 ---
 
@@ -133,3 +133,12 @@ To move beyond raw similarity scores, we trained supervised classifiers to predi
 
 ---
 
+##  Conclusion
+
+This project showcases the effective integration of classical NLP techniques and modern deep learning models to address a real-world problem in the recruitment domain. By combining preprocessing, feature extraction, similarity measures, and supervised classification, we created a complete pipeline capable of accurately matching resumes with relevant job descriptions.
+
+The hybrid model—leveraging both TF-IDF and BERT—proved to be the most reliable, striking a balance between keyword precision and semantic understanding. This not only enhanced the accuracy of candidate-job alignment but also improved the interpretability of the system.
+
+Beyond automation, this project highlights the scalability and adaptability of NLP-based screening systems in various industries. Whether used in corporate HR departments, job platforms, or academic environments, the approach can be extended to support multilingual data, interactive dashboards, and continuous learning models.
+
+> Ultimately, this system is a step toward smarter, fairer, and more efficient hiring workflows powered by intelligent language technologies.
