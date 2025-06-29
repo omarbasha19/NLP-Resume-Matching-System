@@ -31,7 +31,7 @@ The dataset is provided in `UpdatedResumeDataSet.csv` and covers a diverse set o
 
 ---
 
-## 🧹 NLP Pipeline: Preprocessing Steps
+##  NLP Pipeline: Preprocessing Steps
 
 Each resume undergoes a multi-stage NLP transformation to normalize and prepare data for analysis:
 
@@ -43,11 +43,11 @@ Each resume undergoes a multi-stage NLP transformation to normalize and prepare 
 | **Lemmatization**  | Reduce words to their root form (e.g., "running" → "run"). |
 | **Stopword Removal** | Remove non-informative words like "the", "and", etc. |
 
-> 🔍 *Result:* Reduced vocabulary size by ~30%, improved focus on meaningful keywords, and boosted computational efficiency.
+>  *Result:* Reduced vocabulary size by ~30%, improved focus on meaningful keywords, and boosted computational efficiency.
 
 ---
 
-## 📊 Feature Extraction Techniques
+##  Feature Extraction Techniques
 
 Three primary methods were used to extract meaningful features from text:
 
@@ -70,7 +70,7 @@ Three primary methods were used to extract meaningful features from text:
 
 ---
 
-## 🧮 Similarity Approaches
+##  Similarity Approaches
 
 We implemented and compared three models to assess the similarity between job descriptions and resumes.
 
@@ -80,11 +80,11 @@ We implemented and compared three models to assess the similarity between job de
 | **BERT**    | Contextual embeddings from deep language models  | Understands semantics and synonyms     | Computationally expensive     |
 | **Hybrid**  | Weighted combination (TF-IDF 60%, BERT 40%)      | Balances speed and depth               | Requires tuning & integration |
 
-> ✅ *Outcome:* The hybrid model achieved the best balance between contextual understanding and speed.
+>  *Outcome:* The hybrid model achieved the best balance between contextual understanding and speed.
 
 ---
 
-## 🧠 Classification Models for Suitability Prediction
+##  Classification Models for Suitability Prediction
 
 To move beyond raw similarity scores, we trained supervised classifiers to predict suitability between resumes and jobs.
 
@@ -94,7 +94,7 @@ To move beyond raw similarity scores, we trained supervised classifiers to predi
 | Logistic Regression | 100%     | Lightweight and fast                |
 | Naive Bayes         | 56%      | Weak with long, sparse documents    |
 
-> 🔑 *Top Predictive Features:* TF-IDF score, resume length, and keyword overlap count.
+>  *Top Predictive Features:* TF-IDF score, resume length, and keyword overlap count.
 
 ---
 
