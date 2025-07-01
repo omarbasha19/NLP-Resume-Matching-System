@@ -90,9 +90,9 @@ To move beyond raw similarity scores, we trained supervised classifiers to predi
 
 | Model               | Accuracy | Notes                               |
 |---------------------|----------|-------------------------------------|
-| Random Forest       | 100%     | Best generalization & interpretability |
-| Logistic Regression | 100%     | Lightweight and fast                |
-| Naive Bayes         | 56%      | Weak with long, sparse documents    |
+| Random Forest       | 98%     | Best generalization & interpretability |
+| Logistic Regression | 84%     | Lightweight and fast                |
+| Naive Bayes         | 62%      | Weak with long, sparse documents    |
 
 >  *Top Predictive Features:* TF-IDF score, resume length, and keyword overlap count.
 
